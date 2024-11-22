@@ -5,7 +5,7 @@ const showDateTime = new Date('2024-11-23T04:46:00+01:00');
 function checkDateTime() {
     const currentDateTime = new Date();
     if (currentDateTime >= showDateTime) {
-        document.getElementById('hiddenElement').style.display = 'block';
+        document.getElementById('hiddenobject').style.display = 'block';
     }
 }
 
